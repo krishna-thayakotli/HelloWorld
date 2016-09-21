@@ -16,6 +16,7 @@ public class ListExample {
 		List<String> l = new ArrayList<String>();
 		l.add("Krishna");
 		l.add("Ashok");
+		l.add("Hanuman");
 		System.out.println(l.size());
 	}
 

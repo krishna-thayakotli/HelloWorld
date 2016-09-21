@@ -3,7 +3,8 @@
  */
 package com.insta.hms;
 
-import java.util.Collections;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author krishna
@@ -12,7 +13,9 @@ import java.util.Collections;
 public class ListExample {
 	
 	public static void main(String[] args) {
-		System.out.println(Collections.EMPTY_LIST);
+		List<String> l = new ArrayList<String>();
+		
+		System.out.println(l.size());
 	}
 
 }
